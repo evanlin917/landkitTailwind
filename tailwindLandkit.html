@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landkit-Tailwind</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <nav class="flex justify-center w-full py-5 bg-white">
+            <div class="flex items-center justify-between w-full max-w-2xl px-6 md:px-0 lg:max-w-5xl">
+                <img src="https://landkit.goodthemes.co/assets/img/brand.svg" alt="logo" />
+                <ul class="justify-between hidden space-x-12 md:flex text-slate-600">
+                    <li>Landings</li>
+                    <li>Pages</li>
+                    <li>Account</li>
+                    <li>Documentation</li>
+                </ul>
+                <button class="hidden px-5 py-4 text-base text-white bg-blue-600 rounded-md hover:bg-blue-700 md:block">Buy Now</button>
+                <div class=" md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="relative flex justify-center w-full bg-cover" style="background-image: url(https://landkit.goodthemes.co/assets/img/covers/cover-4.jpg);">
+        <div class="absolute top-0 left-0 z-10 w-full h-full bg-black bg-opacity-50">
+        </div>    
+            <div class="relative flex flex-col items-center justify-center px-5 font-sans text-center text-white h-80">
+                <div class="relative z-20">
+                    <h1 class="mb-4 text-4xl font-bold text-white">What Do You Need?</h1>
+                    <p class="text-base text-white">We're here to help you better use Landkit. First, let's figure out if we have a solution in our documentation.</p>
+                </div>
+                <div class="absolute z-30 flex justify-between w-full px-1 py-4 bg-white rounded-md -bottom-5">
+                    <input class="w-full" type="text" placeholder="Search for your issue..." />
+                    <button class = "z-40 px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">Search</button>
+                </div> 
+            </div>
+        </div>
+        <div class="flex items-center justify-start pt-8 pb-12 mx-auto bg-slate-100">
+            <div class="flex justify-start text-slate-400">
+                <p class="pr-5 font-sans text-xs">COMMON SEARCHES: </p>
+                <p class="font-sans text-xs">Redownload my theme, Request an invoice, Update my .zip</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-around grid-cols-2 grid-cols-3 grid-rows-2 grid-rows-3 px-5 mx-22 bg-slate-100 md:grid lg:grid">
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-blue-600">
+                <div class="flex items-center justify-center w-16 h-16 mb-6 bg-blue-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Account</h4>
+                <p class="mb-5 text-lg text-slate-500">Issues related to logging in, out, or about multiple devices.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">21 ENTRIES</button>
+            </div>
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-green-400">
+                <div class="flex items-center justify-center w-16 h-16 mb-6 bg-green-400 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Integrations</h4>
+                <p class="mb-5 text-lg text-slate-500">Connecting with 3rd party apps to exchange data.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">9 ENTRIES</button>
+            </div>
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-yellow-200">
+                <div class="flex items-center justify-center w-16 h-16 mb-6 bg-yellow-200 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Billing</h4>
+                <p class="mb-5 text-lg text-slate-500">Issues with payments or invoicing.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">14 ENTRIES</button>
+            </div>
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-gray-900">
+                <div class="flex items-center justify-center w-16 h-16 mx-12 mb-6 bg-gray-900 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Organizations</h4>
+                <p class="mb-5 text-lg text-slate-500">Setting up and managing collections of users.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">17 ENTRIES</button>
+            </div>
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-blue-400">
+                <div class="flex items-center justify-center w-16 h-16 mb-6 bg-blue-400 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Performance</h4>
+                <p class="mb-5 text-lg text-slate-500">Improving your system's speed and reliability.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">7 ENTRIES</button>
+            </div>
+            <div class="flex flex-col items-center justify-center p-8 mx-12 mb-12 font-sans text-center bg-white border-t-2 rounded border-t-red-500">
+                <div class="flex items-center justify-center w-16 h-16 mb-6 bg-red-500 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <h4 class="mb-2 font-bold">Customizing</h4>
+                <p class="mb-5 text-lg text-slate-500">Building custom modules on top of our platform.</p>
+                <button class="px-3 py-1 font-sans rounded-full bg-slate-300">14 ENTIRES</button>
+            </div>
+        </div>
+        <div class="flex items-center justify-center bg-slate-100">
+            <div class="flex flex-col items-center justify-center">
+                <h2 class="mb-4 font-sans text-2xl font-bold mt-14">Can't find the answer you need?</h2>
+                <p class="px-5 pb-16 font-sans text-lg text-center text-slate-300">Contact us and we'll get back to you as soon as possible with a solution to whatever issues you're having with Landkit.</p>
+                <div class="grid grid-cols-3 mb-16">
+                    <div class="flex flex-col items-center justify-center px-5 text-center">
+                        <p class="font-sans text-xs text-slate-300">MESSAGE US</p>
+                        <p class="font-sans text-blue-500">Start a chat!</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center text-center">
+                        <p class="font-sans text-xs text-slate-300">CALL ANYTIME</p>
+                        <p class="font-sans text-blue-500">(555) 123-4567</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center text-center">
+                        <p class="font-sans text-xs text-slate-300">EMAIL US</p>
+                        <p class="font-sans text-blue-500">support@goodthemes.co</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-5 mx-auto font-sans bg-slate-100">
+            <div class="grid grid-cols-2 grid-rows-2">
+                <p class="px-5 font-sans">Full name</p>
+                <p class="px-5 font-sans">Email</p>
+                <input class="mx-5 mb-5 px-5 py-3 font-sans border-0.5  text-slate-400" type="text" placeholder="Full name" />
+                <input class="mx-5 mb-5 px-5 py-3 font-sans border-0.5 text-slate-400" type="text" placeholder="hello@domain.com" />
+            </div>
+        </div>
+        <div class="grid grid-rows-2 px-5 pb-16 font-sans bg-slate-100">
+            <p class="px-5 pb-2 font-sans">What can we help you with?</p>
+            <input class="w-full h-full px-5 py-3 mx-5 text-slate-400" type="text" placeholder="Tell us what you need help with!" />
+        </div>
+        <div class="flex items-center justify-center pb-48 bg-slate-100">
+            <button class="px-5 py-3 font-sans text-white bg-blue-600 rounded-md hover:bg-blue-700">Submit request</button>
+        </div>
+        <footer class="flex justify-center w-full py-24 bg-sky-900">
+            <div class="flex items-start px-5 justify-evenly mx-22">
+                <div class="flex flex-col items-start justify-start px-5">
+                    <img class="mb-2 text-white" src="https://landkit.goodthemes.co/assets/img/brand.svg" alt="logo" />
+                    <p class="mb-2 text-gray-700">A better way to build.</p>
+                    <div class="grid grid-cols-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="pr-3 stroke-gray-500 bi bi-instagram max-w-5 max-h-5" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="pr-3 bi bi-facebook stroke-gray-500" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="pr-3 bi bi-twitter stroke-gray-500" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="pr-3 bi bi-pinterest stroke-gray-500" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex items-center justify-start px-5 list-none">
+                    <ul>
+                        <li class="pb-3 font-sans font-bold text-gray-700">PRODUCTS</li>
+                        <li class="pb-3 font-sans text-gray-400">Page Builder</li>
+                        <li class="pb-3 font-sans text-gray-400">UI Kit</li>
+                        <li class="pb-3 font-sans text-gray-400">Styleguide</li>
+                        <li class="pb-3 font-sans text-gray-400">Documentation</li>
+                        <li class="pb-3 font-sans text-gray-400">Changelog</li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-start px-5 list-none">
+                    <ul>
+                        <li class="pb-3 font-sans font-bold text-gray-700">SERVICES</li>
+                        <li class="pb-3 font-sans text-gray-400">Documentation</li>
+                        <li class="pb-3 font-sans text-gray-400">Changelog</li>
+                        <li class="pb-3 font-sans text-gray-400">Pagebuilder</li>
+                        <li class="pb-3 font-sans text-gray-400">UI Kit</li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-start px-5 list-none">
+                    <ul>
+                        <li class="pb-3 font-sans font-bold text-gray-700">CONNECT</li>
+                        <li class="pb-3 font-sans text-gray-400">Page Builder</li>
+                        <li class="pb-3 font-sans text-gray-400">UI Kit</li>
+                        <li class="pb-3 font-sans text-gray-400">Styleguide</li>
+                        <li class="pb-3 font-sans text-gray-400">Documentation</li>
+                        <li class="pb-3 font-sans text-gray-400">Changelog</li>
+                        <li class="pb-3 font-sans text-gray-400">Documentation</li>
+                        <li class="pb-3 font-sans text-gray-400">Changelog</li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-start px-5 list-none">
+                    <ul>
+                        <li class="pb-3 font-sans font-bold text-gray-700">LEGAL</li>
+                        <li class="pb-3 font-sans text-gray-400">Documentation</li>
+                        <li class="pb-3 font-sans text-gray-400">Changelog</li>
+                        <li class="pb-3 font-sans text-gray-400">Pagebuilder</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html> 
